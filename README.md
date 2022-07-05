@@ -9,4 +9,5 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 # 2. Mongoose İşlemimiz
 -> Şema tanımlama 
 = Schema diye dosya(klasör) açın ve dosyanın(klosör) içine <istediğinad>.js dosyası açın
+
 ![image](https://user-images.githubusercontent.com/101521169/177276144-e719a2f8-3ee0-4b5e-9c1b-e7eb3580838c.png)

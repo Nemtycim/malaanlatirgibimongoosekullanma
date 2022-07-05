@@ -17,4 +17,12 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 
 ![image](https://user-images.githubusercontent.com/101521169/177276475-fb421c95-f4f6-4ab8-b40d-0b39d371c4de.png)
 
+# 4. Mongoose İşlememiz
+-> Mongoose'de veri ekleme veri pushlama veri silme(bunu biliyom ama biraz)
 
+\`>\` **Veri Ekleme** 
+await <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });
+
+\`>\` **Veri Pushlama**
+await <doyalıyolutanımı>.findOne({ guildID: message.guild.id, userID: member.id });
+${data ? data.<verin> : 0}

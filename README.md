@@ -21,7 +21,8 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 -> Mongoose'de veri ekleme veri pushlama veri silme(bunu biliyom ama biraz)
 
 `>` **Veri Ekleme** 
-```jsawait <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });```
+
+`js\njsawait <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });`
 
 `>` **Veri Pushlama**
 await <doyalıyolutanımı>.findOne({ guildID: message.guild.id, userID: member.id });

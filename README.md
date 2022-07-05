@@ -22,7 +22,7 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 
 `>` **Veri Ekleme** 
 
-`js\njsawait <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });`
+`await <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });`
 
 `>` **Veri Pushlama**
 await <doyalıyolutanımı>.findOne({ guildID: message.guild.id, userID: member.id });

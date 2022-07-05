@@ -11,3 +11,10 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 = Schema diye dosya(klasör) açın ve dosyanın(klosör) içine <istediğinad>.js dosyası açın
 
 ![image](https://user-images.githubusercontent.com/101521169/177276144-e719a2f8-3ee0-4b5e-9c1b-e7eb3580838c.png)
+
+# 3. Mongoose İşlemimiz
+-> Schema doldurma = gerekli şeyleri doldurcaz (resimdeki gibi yapabilirsiniz)
+
+![image](https://user-images.githubusercontent.com/101521169/177276475-fb421c95-f4f6-4ab8-b40d-0b39d371c4de.png)
+
+

@@ -25,5 +25,10 @@ Bende MongoDB(mongoose)'De yeniyim küfür etmeyin yanlısım varsa yardımım d
 `await <doyalıyolutanımı>.findOneAndUpdate({ guildID: message.guild.id, userID: message.author.id }, { $inc: { <verin1>: 1,<verin2>: 1, }, }, { upsert: true });`
 
 `>` **Veri Pushlama**
+
 `await <doyalıyolutanımı>.findOne({ guildID: message.guild.id, userID: member.id });
 ${data ? data.<verin> : 0}`
+
+
+# Son Olarak
+-> Mongo.db(Mongoose) kullanmayın akıl sağlığınız bozulur.
